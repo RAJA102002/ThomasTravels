@@ -8,10 +8,10 @@ public class TestDriver {
 
         ArrayList<Driver> list = new ArrayList<>();
 
-        list.add(new Driver(1, "Sudhagar", "Car", 4200));
-        list.add(new Driver(2, "Ramesh", "Auto", 2500));
-        list.add(new Driver(3, "Suresh", "Lorry", 8000));
-        list.add(new Driver(4, "Mahesh", "Car", 6000));
+        list.add(new Driver(1, "RAJA", "Car", 4200));
+        list.add(new Driver(2, "FAyaz", "Auto", 2500));
+        list.add(new Driver(3, "Hanith", "Lorry", 8000));
+        list.add(new Driver(4, "Rakesh", "Car", 6000));
 
         Travel travel = new Travel();
 
@@ -41,4 +41,5 @@ public class TestDriver {
                     + max.getDriverName());
         }
     }
+
 }
